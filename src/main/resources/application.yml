@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 939513800@qq.com
+    password: hnjwcejddjhwbeac   #此处是邮箱的smtp授权码
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
